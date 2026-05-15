@@ -1,16 +1,33 @@
-# React + Vite
+# Premium E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-quality, professional, and fully responsive E-Commerce application built to deliver a seamless online shopping experience. This platform features a modern user interface, real-time database management, and secure user authentication.
 
-Currently, two official plugins are available:
+## 🚀 Core Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **User Authentication:** Secure signup, login, and session management powered by Supabase Auth (including JWT handling).
+* **Dynamic Product Catalog:** Smooth filtering, searching, and categorization of products fetched directly from the database.
+* **Interactive Shopping Cart:** Fully functional cart system with real-time price calculation, item increments, and persistent states.
+* **Responsive UI:** Beautiful, modern, and mobile-friendly user interface crafted entirely with custom vanilla CSS.
+* **Secure Backend:** Robust database tables, row-level security (RLS), and media storage handled efficiently via Supabase.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React.js, JavaScript (ES6+)
+* **Styling:** Custom Vanilla CSS
+* **Backend & Database:** Supabase (PostgreSQL)
+* **Authentication:** Supabase Auth
 
-## Expanding the ESLint configuration
+## 📦 Project Architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+├── public/
+└── src/
+    ├── assets/ # Media and global styles
+    ├── context/ # React Context API for Cart & Auth state management
+    ├── pages/ # Main views (HOME, ABOUT,CONTACT, PRODUCTS,LOGIN, CART)
+    ├── supabase/ # Supabase client configuration
+    ├── App.js # Main application router and layout
+    └── index.js # Application entry point
+
+##get me in touch
+Email: fahad.integration.ml@gmail.com
